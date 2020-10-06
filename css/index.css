@@ -1,14 +1,20 @@
 .jumbotron {
     background-color:#5B5A21;
-    color: #E5E5E5;
-    
+    color: #E5E5E5;   
 }
 .text_center {
     text-align: center;
 }
-.card-body .navbar-brand a{
-    font-family: 'Lato', sans-serif;
-}
 .display-4 {
     font-family: 'Sansita Swashed', sans-serif;
+}
+p {
+    font-family: 'Lato', sans-serif;
+}
+a  {
+    font-family: 'Lato', sans-serif;
+}
+.card {
+    font-family: 'Lato', sans-serif;
+    border: none;
 }
