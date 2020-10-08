@@ -22,6 +22,13 @@ a  {
     width: 100px;
     height: 100px;
 }
+.nav-item {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.nav-link:hover {
+    background-color: #CBC854;
+}
 @media (min-width: 576px) {
     .my_logo {
         width: 100px;
