@@ -18,3 +18,15 @@ a  {
     font-family: 'Lato', sans-serif;
     border: none;
 }
+.navbar-toggler-icon {
+    width: 100px;
+    height: 100px;
+}
+@media (min-width: 576px) {
+    .my_logo {
+        width: 100px;
+        height: 100px;
+    }
+
+  }
+
