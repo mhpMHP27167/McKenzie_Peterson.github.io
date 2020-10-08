@@ -1,6 +1,7 @@
 .jumbotron {
     background-color:#5B5A21;
     color: #E5E5E5;   
+    padding: 2rem;
 }
 .text_center {
     text-align: center;
@@ -29,11 +30,27 @@ a  {
 .nav-link:hover {
     background-color: #CBC854;
 }
-@media (min-width: 576px) {
-    .my_logo {
+.my_logo {
+    width: 50px;
+    height: 50px;
+}
+.btn-primary {
+    background-color: #5B5A21;
+    border-color: #CBC854;
+}
+.btn-primary:hover {
+    background-color: #CBC854;
+    color: black;
+    border: #CBC854;
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+}
+@media (max-width: 768px) {
+    a.navbar-brand .my_logo {
         width: 100px;
         height: 100px;
     }
-
   }
 
