@@ -1,3 +1,4 @@
+
  .jumbotron {
     background-color:#5B5A21;
     color: #E5E5E5;   
@@ -8,6 +9,7 @@
 }
 .display-4 {
     font-family: 'Sansita Swashed', sans-serif;
+    margin-bottom: 1.5 rem;
 }
 p {
     font-family: 'Lato', sans-serif;
@@ -27,6 +29,7 @@ a  {
     width: 60px;
     height: 60px;
 }
+
 .nav-item {
     padding-left: 20px;
     padding-right: 20px;
@@ -41,6 +44,7 @@ a  {
 .btn-primary {
     background-color: #5B5A21;
     border-color: #CBC854;
+    width: 50%;
 }
 .btn-primary:hover {
     background-color: #CBC854;
@@ -52,12 +56,11 @@ a  {
     justify-content: center;
 }
 
-
 .pageheading {
     text-align: center;
     font-family: 'Lato', sans-serif;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .projects {
@@ -79,8 +82,6 @@ a  {
     font-weight: normal;
     font-size: 16px;
     display: block;
-    margin-top: 25px;
-    margin-bottom: 25px;
     margin-left: 35px;
     margin-right: 0;
     height: max-content;
@@ -98,6 +99,7 @@ h4 {
 }
 
 @media only screen and (max-width: 768px) {
-
-
+    .navbar-brand {
+        font-size: 1.2rem;
+    }
   }
