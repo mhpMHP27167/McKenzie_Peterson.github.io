@@ -57,10 +57,15 @@ a:hover {
     text-decoration: none;
 }
 .navbar-toggler-icon {
-    width: 60px;
-    height: 60px;
+ 
 }
-
+.navbar-toggler {
+ 
+}
+.navbar-brand {
+    margin: 0;
+    padding: 0;
+}
 .nav-item {
     padding-left: 20px;
     padding-right: 20px;
