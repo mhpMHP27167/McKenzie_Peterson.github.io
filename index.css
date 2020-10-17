@@ -137,20 +137,35 @@ h5 {
     font-family: "Lato", "sans-serif";
     color: #303030;
 }
+
+.footer {
+    background-color: #f0f3f5;
+}
 .white_text {
-    color: #D7C9AA;
+    color: #19535F;
     font-family: "Lato", "sans-serif";
 }
 .white_text:hover {
-    color: #0B7A75;
+    background-color: #0B7A75;
+    color: #f0f3f5;
+}
+.footer-copyright {
+    background-color: #591B1B;
+    
 }
 .white {
-    color: #D7C9AA;
+    color: #19535F;
+}
+
+.actually_white {
+    color: #f0f3f5;
 }
 
 .white_space {
 padding-bottom: 30px;
 }
+
+
 @media only screen and (max-width: 768px) {
     .navbar-brand {
         font-size: 1.2rem;
