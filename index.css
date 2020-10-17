@@ -1,8 +1,23 @@
+.body {
+    background-color: #F7EFE2;
+}
 
+.blue_text {
+    color: #19535F !important;
+}
+.bg-light {
+    background-color: #F0F3F5!important;
+    /*
+    border-bottom: solid 3px #591B1B;;
+  */
+}
  .jumbotron {
-    background-color:#5B5A21;
-    color: #E5E5E5;   
+    background-color:#0B7A75;
+    color: #F0F3F5;   
     padding: 2rem;
+}
+.lead {
+    color: #F0F3F5;
 }
 .text_center {
     text-align: center;
@@ -11,19 +26,31 @@
     font-family: 'Sansita Swashed', sans-serif;
     margin-bottom: 1.5 rem;
 }
+
 p {
     font-family: 'Lato', sans-serif;
+    color: #303030;
 }
 a  {
     font-family: 'Lato', sans-serif;
-    color: black;
+    color: #303030;
 }
 .card {
     font-family: 'Lato', sans-serif;
     border: none;
 }
 .card-title:hover {
-    background-color: #CBC854;
+    background-color: #0B7A75;
+    color: #f0f3f5!important;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+.green_hover:hover {
+    background-color: #0B7A75;
+    color: #f0f3f5!important;
+    text-decoration: none;
 }
 .navbar-toggler-icon {
     width: 60px;
@@ -33,23 +60,28 @@ a  {
 .nav-item {
     padding-left: 20px;
     padding-right: 20px;
+    color: #19535F;
 }
 .nav-link:hover {
-    background-color: #CBC854;
+    background-color: #0B7A75;
+    color: #f0f3f5!important;
+    text-decoration: none;
 }
 .my_logo {
     width: 50px;
     height: 50px;
 }
 .btn-primary {
-    background-color: #5B5A21;
-    border-color: #CBC854;
+    background-color: #19535F;
+    color: #f0f3f5;
+    border: none;
     width: 50%;
 }
 .btn-primary:hover {
-    background-color: #CBC854;
-    color: black;
-    border: #CBC854;
+    background-color: #0B7A75;
+    color: #f0f3f5;
+    border: none;
+    text-decoration: none;
 }
 .wrapper {
     display: flex;
@@ -86,6 +118,9 @@ a  {
     margin-right: 0;
     height: max-content;
 }
+.navbar-brand {
+    color: #19535F;
+}
 
 .projectimages{
     margin-left: auto;
@@ -96,8 +131,26 @@ a  {
 
 h4 {
     text-align: center;
+    color: #303030;
+}
+h5 {
+    font-family: "Lato", "sans-serif";
+    color: #303030;
+}
+.white_text {
+    color: #D7C9AA;
+    font-family: "Lato", "sans-serif";
+}
+.white_text:hover {
+    color: #0B7A75;
+}
+.white {
+    color: #D7C9AA;
 }
 
+.white_space {
+padding-bottom: 30px;
+}
 @media only screen and (max-width: 768px) {
     .navbar-brand {
         font-size: 1.2rem;
