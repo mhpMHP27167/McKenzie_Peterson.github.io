@@ -23,8 +23,12 @@
     text-align: center;
 }
 .display-4 {
-    font-family: 'Sansita Swashed', sans-serif;
-    margin-bottom: 1.5 rem;
+    margin: 1.5rem;
+    font-size: 3rem;
+    text-align: center;
+    font-family: "grad","serif";
+    font-weight: 400;
+    font-style: normal;
 }
 
 p {
