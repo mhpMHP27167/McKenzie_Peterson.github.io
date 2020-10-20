@@ -187,6 +187,25 @@ padding-bottom: 30px;
 .margin_24 {
     margin-top: 24px;
 }
+.title_case_study {
+    font-family: "Lato","sans-serif";
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-style: normal;
+}
+.display_case_study {
+    font-family: "Lato","sans-serif";
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.25rem;
+    color: #303030;
+}
+.paragraph_case_study {
+    font-family: "Lato","sans-serif";
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1rem;
+}
 .weight_300 {
     font-weight: 400;
     font-family: "Lato","sans-serif";
@@ -201,7 +220,6 @@ padding-bottom: 30px;
 }
 .background_green {
     background-color: #0B7A75;
-
 }
 
 @media only screen and (max-width: 768px) {
