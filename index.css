@@ -72,6 +72,7 @@ a:hover {
 .navbar-nav .nav-link {
     text-align: center;
 }
+
 .nav-item {
     padding-left: 20px;
     padding-right: 20px;
@@ -195,6 +196,7 @@ padding-bottom: 30px;
     font-style: normal;
     font-size: 1.25rem;
     color: #19535F;
+    margin-top: 1rem;
 }
 .paragraph_case_study {
     font-family: "Lato","sans-serif";
@@ -212,12 +214,13 @@ padding-bottom: 30px;
    
 }
 .background_green {
-    background-color: #0B7A75;
+    background-color:  #0B7A75;
+    border: solid 3px #0B7A75;
     padding: 10px;
 }
 .circle {
-    width: 150px;
-    height: 150px;
+    width: auto;
+    height: auto;
     border-radius: 50%;
     background: #0B7A75a5;
     margin: 10pt;
@@ -233,15 +236,36 @@ padding-bottom: 30px;
     flex-wrap: wrap;
     justify-content: space-between;
 }
-
 .donate_text {
-    text-align: center;
-    margin: 5px;
+    background-color: rgba(255, 255, 0, 0.699); 
+    padding: 10px;
 }
 
 .actually_white {
     color: #f0f3f5;
 }
+/* Style the header: fixed position (always stay at the top) */
+.header {
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    background-color:#F0F3F5;
+  }
+  
+  /* The progress container (grey background) */
+  .progress-container {
+    width: 100%;
+    height: 8px;
+    background: #F0F3F5;
+  }
+  
+  /* The progress bar (scroll indicator) */
+  .progress-bar {
+    height: 8px;
+    background: #0B7A75;
+    width: 0%;
+  }
 
 @media only screen and (max-width: 768px) {
     .navbar-brand {
