@@ -30,6 +30,9 @@
     font-weight: 400;
     font-style: normal;
 }
+.hello {
+    font-family: "Sansita Swashed", "grad", "serif";
+}
 
 p {
     font-family: 'Lato', sans-serif;
@@ -66,6 +69,9 @@ a:hover {
     margin: 0;
     padding: 0;
 }
+.navbar-nav .nav-link {
+    text-align: center;
+}
 .nav-item {
     padding-left: 20px;
     padding-right: 20px;
@@ -79,6 +85,7 @@ a:hover {
 .my_logo {
     width: 50px;
     height: 50px;
+    margin-right: 10px;
 }
 .btn-primary {
     background-color: #19535F;
@@ -86,6 +93,10 @@ a:hover {
     border: none;
     width: 50%;
 }
+.learn_more {
+display: none;
+}
+
 .btn-primary:hover {
     background-color: #0B7A75;
     color: #f0f3f5;
@@ -156,8 +167,7 @@ h5 {
     font-family: "Lato", "sans-serif";
 }
 .white_text:hover {
-    background-color: #0B7A75;
-    color: #f0f3f5;
+    color: #0B7A75;
 }
 .footer-copyright {
     background-color: #591B1B;
@@ -180,4 +190,7 @@ padding-bottom: 30px;
     .navbar-brand {
         font-size: 1.2rem;
     }
+    .learn_more {
+        display: block;
+        }
   }
