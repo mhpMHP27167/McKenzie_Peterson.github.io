@@ -69,22 +69,12 @@ a  {
     padding-left: 20px;
     padding-right: 20px;
 }
-.nav-link:hover {
-    background-color: #CBC854;
-}
+
 .my_logo {
     width: 50px;
     height: 50px;
 }
-.btn-primary {
-    background-color: #5B5A21;
-    border-color: #CBC854;
-}
-.btn-primary:hover {
-    background-color: #CBC854;
-    color: black;
-    border: #CBC854;
-}
+
 .wrapper {
     display: flex;
     justify-content: center;
