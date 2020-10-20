@@ -184,7 +184,25 @@ h5 {
 .white_space {
 padding-bottom: 30px;
 }
+.margin_24 {
+    margin-top: 24px;
+}
+.weight_300 {
+    font-weight: 400;
+    font-family: "Lato","sans-serif";
+}
+.designers {
+    list-style: none;
+    text-align: left;
+    color: #f0f3f5;
+    margin: auto;
+    padding: 10px;
+   
+}
+.background_green {
+    background-color: #0B7A75;
 
+}
 
 @media only screen and (max-width: 768px) {
     .navbar-brand {
