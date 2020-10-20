@@ -177,10 +177,6 @@ h5 {
     color: #19535F;
 }
 
-.actually_white {
-    color: #f0f3f5;
-}
-
 .white_space {
 padding-bottom: 30px;
 }
@@ -198,17 +194,14 @@ padding-bottom: 30px;
     font-weight: 400;
     font-style: normal;
     font-size: 1.25rem;
-    color: #303030;
+    color: #19535F;
 }
 .paragraph_case_study {
     font-family: "Lato","sans-serif";
-    font-weight: 300;
+    font-weight: 400;
     font-style: normal;
     font-size: 1rem;
-}
-.weight_300 {
-    font-weight: 400;
-    font-family: "Lato","sans-serif";
+    color: #303030;
 }
 .designers {
     list-style: none;
@@ -220,6 +213,34 @@ padding-bottom: 30px;
 }
 .background_green {
     background-color: #0B7A75;
+    padding: 10px;
+}
+.circle {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: #0B7A75a5;
+    margin: 10pt;
+    display: flex;
+    align-items: center; 
+    align-content: center;
+    justify-content: center
+  }
+
+.flex_donate {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.donate_text {
+    text-align: center;
+    margin: 5px;
+}
+
+.actually_white {
+    color: #f0f3f5;
 }
 
 @media only screen and (max-width: 768px) {
