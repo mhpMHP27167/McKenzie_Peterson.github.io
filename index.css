@@ -267,6 +267,10 @@ padding-bottom: 30px;
     width: 0%;
   }
 
+  .email:hover {
+      color: #591B1B;
+  }
+
 @media only screen and (max-width: 768px) {
     .navbar-brand {
         font-size: 1.2rem;
