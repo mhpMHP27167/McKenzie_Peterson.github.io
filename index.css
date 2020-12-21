@@ -5,6 +5,12 @@
 .blue_text {
     color: #19535F !important;
 }
+.blue_title {
+    font-size: 1.5rem;
+}
+.contact_text {
+    color: white !important;
+}
 .bg-light {
     background-color: #F0F3F5!important;
     /*
@@ -12,12 +18,13 @@
   */
 }
  .jumbotron {
-    background-color:#0B7A75;
+    background-color:#066D69;
     color: #F0F3F5;   
     padding: 2rem;
 }
 .lead {
     color: #F0F3F5;
+    font-size: 3rem;
 }
 .text_center {
     text-align: center;
@@ -40,7 +47,7 @@ p {
 }
 a  {
     font-family: 'Lato', sans-serif;
-    color: #303030;
+    color: #f0f3f5;
 }
 .card {
     font-family: 'Lato', sans-serif;
@@ -53,6 +60,7 @@ a  {
 }
 a:hover {
     text-decoration: none;
+    color: #5BFF89;
 }
 .green_hover:hover {
     background-color: #0B7A75;
