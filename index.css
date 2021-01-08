@@ -1,7 +1,9 @@
 .body {
     background-color: #F7EFE2;
 }
-
+.banner {
+    background-image: url(./img/Banner.png)
+}
 .blue_text {
     color: #19535F !important;
 }
@@ -84,11 +86,10 @@ a:hover {
 .nav-item {
     padding-left: 20px;
     padding-right: 20px;
-    color: #19535F;
+    color: #066D69;
 }
 .nav-link:hover {
-    background-color: #0B7A75;
-    color: #f0f3f5!important;
+    background-color: #5BFF89;
     text-decoration: none;
 }
 .my_logo {
@@ -222,8 +223,8 @@ padding-bottom: 30px;
    
 }
 .background_green {
-    background-color:  #0B7A75;
-    border: solid 3px #0B7A75;
+    background-color:  #066D69;
+    border: solid 3px #066D69;
     padding: 10px;
 }
 .circle {
@@ -277,6 +278,15 @@ padding-bottom: 30px;
 
   .email:hover {
       color: #591B1B;
+  }
+  
+  .no-padding {
+      padding: none;
+  }
+
+  .btn-outline-secondary:hover {
+      background-color:#5BFF89;
+      color:#1B1C1E;
   }
 
 @media only screen and (max-width: 768px) {
