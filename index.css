@@ -1,80 +1,29 @@
+/* CSS for entire site */
 .body {
     background-color: #F7EFE2;
 }
-.blue_text {
-    color: #19535F !important;
-}
-.blue_title {
-    font-size: 1.5rem;
-}
-.contact_text {
-    color: white !important;
-}
-.case_study_card {
-    margin-bottom: 2rem;
-}
-.bg-light {
-    background-color: #F0F3F5!important;
-    /*
-    border-bottom: solid 3px #591B1B;;
-  */
-}
- .jumbotron {
-    background-color:#066D69;
-    color: #F0F3F5;   
-    padding: 2rem;
-    margin-bottom: 0;
-}
-.lead {
-    color: #F0F3F5;
-    font-size: 3rem;
-}
-.text_center {
-    text-align: center;
-}
-.display-4 {
-    margin: 1.5rem;
-    font-size: 3rem;
-    text-align: center;
-    font-family: "grad","serif";
-    font-weight: 400;
-    font-style: normal;
-}
-.hello {
-    font-family: "Sansita Swashed", "grad", "serif";
-}
-
 p {
     font-family: 'Lato', sans-serif;
     color: #303030;
 }
-a  {
-    font-family: 'Lato', sans-serif;
-    color: #f0f3f5;
+h4 {
+    text-align: center;
+    color: #303030;
 }
-.card {
-    font-family: 'Lato', sans-serif;
-    border: none;
+h5 {
+    font-family: "Lato", "sans-serif";
+    color: #303030;
 }
-.card-title:hover {
-    background-color: #0B7A75;
-    color: #f0f3f5!important;
-    text-decoration: none;
+.text_center {
+    text-align: center;
 }
-a:hover {
-    text-decoration: none;
-    color: #5BFF89;
+.yellow-background {
+    background-color: #DFA534;
 }
-.green_hover:hover {
-    background-color: #0B7A75;
-    color: #f0f3f5!important;
-    text-decoration: none;
-}
+/* Nav bar */
 .navbar-toggler-icon {
- 
 }
 .navbar-toggler {
- 
 }
 .navbar-brand {
     margin: 0;
@@ -83,7 +32,6 @@ a:hover {
 .navbar-nav .nav-link {
     text-align: center;
 }
-
 .nav-item {
     padding-left: 20px;
     padding-right: 20px;
@@ -93,6 +41,62 @@ a:hover {
     background-color: #5BFF89;
     text-decoration: none;
 }
+.navbar-brand {
+    color: #19535F;
+}
+
+/* Jumbotron */
+.jumbotron {
+    background-color:#066D69;
+    color: #F0F3F5;   
+    padding: 2rem;
+    margin-bottom: 0;
+}
+.jumbo-link  {
+    font-family: 'Lato', sans-serif;
+    color: #f0f3f5;
+}
+.jumbo-link:hover {
+    text-decoration: none;
+    color: #5BFF89;
+}
+.lead {
+    color: #F0F3F5;
+    font-size: 3rem;
+}
+a:hover {
+    text-decoration: none;
+}
+.case_studies {
+    display: flex;
+    margin-bottom: 20px;
+}
+/* Case Studies Cards */
+.card {
+    font-family: 'Lato', sans-serif;
+    border: none;
+}
+.card-title {
+    color: #19535F;
+    margin-top: .75rem;
+}
+.card-title:hover {
+    background-color: #5BFF89;
+    text-decoration: none;
+}
+.card-link {
+    color: #19535F;
+}
+.card-link:hover {
+    text-decoration: none;
+    color: #5BFF89;
+}
+.bg-light {
+    background-color: #F0F3F5!important;
+}
+
+/* need to sort through this CSS*/
+
 .my_logo {
     width: 50px;
     height: 50px;
@@ -107,7 +111,6 @@ a:hover {
 .learn_more {
 display: none;
 }
-
 .btn-primary:hover {
     background-color: #0B7A75;
     color: #f0f3f5;
@@ -118,14 +121,12 @@ display: none;
     display: flex;
     justify-content: center;
 }
-
 .pageheading {
     text-align: center;
     font-family: 'Lato', sans-serif;
     margin-top: 20px;
     margin-bottom: 20px;
 }
-
 .projects {
     margin: 25px;
     display: grid;
@@ -134,11 +135,9 @@ display: none;
     gap: 10px;
     justify-content: space-evenly;
 }
-
 .project_margin {
  margin-bottom: 20px;
 }
-
 .blocktext {
     font-family: Lato;
     font-style: normal;
@@ -149,9 +148,6 @@ display: none;
     margin-right: 0;
     height: max-content;
 }
-.navbar-brand {
-    color: #19535F;
-}
 
 .projectimages{
     margin-left: auto;
@@ -159,15 +155,6 @@ display: none;
     width: 50%;
     align-items: center;
     border: solid 3px #1B1C1E;
-}
-
-h4 {
-    text-align: center;
-    color: #303030;
-}
-h5 {
-    font-family: "Lato", "sans-serif";
-    color: #303030;
 }
 
 .footer {
@@ -179,10 +166,6 @@ h5 {
 }
 .white_text:hover {
     color: #0B7A75;
-}
-.footer-copyright {
-    background-color: #591B1B;
-    
 }
 .white {
     color: #19535F;
@@ -228,17 +211,6 @@ padding-bottom: 30px;
     border: solid 3px #066D69;
     padding: 10px;
 }
-.circle {
-    width: auto;
-    height: auto;
-    border-radius: 50%;
-    background: #0B7A75a5;
-    margin: 10pt;
-    display: flex;
-    align-items: center; 
-    align-content: center;
-    justify-content: center
-  }
 
 .flex_donate {
     display: flex;
@@ -276,15 +248,12 @@ padding-bottom: 30px;
     background: #0B7A75;
     width: 0%;
   }
-
   .email:hover {
       color: #591B1B;
   }
-  
   .no-padding {
       padding: none;
   }
-
   .btn-outline-secondary:hover {
       background-color:#5BFF89;
       color:#1B1C1E;
@@ -297,8 +266,6 @@ padding-bottom: 30px;
     .learn_more {
         display: block;
         }
-
-
   .lead {
     font-size: 16pt;
 }
