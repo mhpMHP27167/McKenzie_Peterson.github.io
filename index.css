@@ -18,10 +18,7 @@ h5 {
     text-align: center;
 }
 /* Nav bar */
-.navbar-toggler-icon {
-}
-.navbar-toggler {
-}
+
 .navbar-brand {
     margin: 0;
     padding: 0;
@@ -38,10 +35,12 @@ h5 {
     background-color: #5CFF8A;
     text-decoration: none;
 }
+.highlighted {
+    background-color: #5CFF8A;
+}
 .navbar-brand {
     color: #19535F;
 }
-
 /* Jumbotron */
 .jumbotron {
     background-color:#066D69;
