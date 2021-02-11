@@ -17,9 +17,6 @@ h5 {
 .text_center {
     text-align: center;
 }
-.yellow-background {
-    background-color: #DFA534;
-}
 /* Nav bar */
 .navbar-toggler-icon {
 }
@@ -38,7 +35,7 @@ h5 {
     color: #066D69;
 }
 .nav-link:hover {
-    background-color: #5BFF89;
+    background-color: #5CFF8A;
     text-decoration: none;
 }
 .navbar-brand {
@@ -58,7 +55,7 @@ h5 {
 }
 .jumbo-link:hover {
     text-decoration: none;
-    color: #5BFF89;
+    color: #5CFF8A;
 }
 .lead {
     color: #F0F3F5;
@@ -81,7 +78,7 @@ a:hover {
     margin-top: .75rem;
 }
 .card-title:hover {
-    background-color: #5BFF89;
+    background-color: #5CFF8A;
     text-decoration: none;
 }
 .card-link {
@@ -89,7 +86,7 @@ a:hover {
 }
 .card-link:hover {
     text-decoration: none;
-    color: #5BFF89;
+    color: #5CFF8A;
 }
 .bg-light {
     background-color: #F0F3F5!important;
@@ -255,7 +252,7 @@ padding-bottom: 30px;
       padding: none;
   }
   .btn-outline-secondary:hover {
-      background-color:#5BFF89;
+      background-color:#5CFF8A;
       color:#1B1C1E;
   }
 
