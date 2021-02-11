@@ -1,9 +1,6 @@
 .body {
     background-color: #F7EFE2;
 }
-.banner {
-    background-image: url(./img/Banner.png)
-}
 .blue_text {
     color: #19535F !important;
 }
@@ -12,6 +9,9 @@
 }
 .contact_text {
     color: white !important;
+}
+.case_study_card {
+    margin-bottom: 2rem;
 }
 .bg-light {
     background-color: #F0F3F5!important;
@@ -23,6 +23,7 @@
     background-color:#066D69;
     color: #F0F3F5;   
     padding: 2rem;
+    margin-bottom: 0;
 }
 .lead {
     color: #F0F3F5;
@@ -296,4 +297,9 @@ padding-bottom: 30px;
     .learn_more {
         display: block;
         }
-  }
+
+
+  .lead {
+    font-size: 16pt;
+}
+}
