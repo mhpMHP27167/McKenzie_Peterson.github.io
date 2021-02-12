@@ -41,9 +41,14 @@ h5 {
 .navbar-brand {
     color: #19535F;
 }
+.navbar-light .navbar-toggler-icon {
+    background-image: url(/img/MENU.svg);
+}
+
 /* Jumbotron */
 .jumbotron {
     background-color:#066D69;
+    background-image: url(/img/IMG_4775\ Edited\ 1.png);
     color: #F0F3F5;   
     padding: 2rem;
     margin-bottom: 0;
