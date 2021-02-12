@@ -1,6 +1,6 @@
 /* CSS for entire site */
-.body {
-    background-color: #F7EFE2;
+body {
+    background-color: #f8f9fa;
 }
 p {
     font-family: 'Lato', sans-serif;
@@ -71,6 +71,7 @@ a:hover {
 .card {
     font-family: 'Lato', sans-serif;
     border: none;
+    background-color: #f8f9fa;
 }
 .card-title {
     color: #19535F;
@@ -254,6 +255,7 @@ padding-bottom: 30px;
       background-color:#5CFF8A;
       color:#1B1C1E;
   }
+
 
 @media only screen and (max-width: 768px) {
     .navbar-brand {
