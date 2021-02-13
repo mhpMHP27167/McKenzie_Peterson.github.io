@@ -49,6 +49,7 @@ h5 {
 .jumbotron {
     background-color:#066D69;
     background-image: url(img/treefaint.png);
+    background-size: cover;
     color: #F0F3F5;   
     padding: 2rem;
     margin-bottom: 0;
