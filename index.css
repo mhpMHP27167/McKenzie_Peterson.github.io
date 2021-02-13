@@ -17,8 +17,9 @@ h5 {
 .text_center {
     text-align: center;
 }
-/* Nav bar */
+/* CSS for entire site */
 
+/* Nav bar */
 .navbar-brand {
     margin: 0;
     padding: 0;
@@ -44,6 +45,7 @@ h5 {
 .navbar-light .navbar-toggler-icon {
     background-image: url(img/MENU.svg);
 }
+/* Nav bar */
 
 /* Jumbotron */
 .jumbotron {
@@ -73,6 +75,8 @@ a:hover {
     display: flex;
     margin-bottom: 20px;
 }
+/* Jumbotron */
+
 /* Case Studies Cards */
 .card {
     font-family: 'Lato', sans-serif;
@@ -97,50 +101,10 @@ a:hover {
 .bg-light {
     background-color: #F0F3F5!important;
 }
+/* Case Studies Cards */
 
-/* need to sort through this CSS*/
+/* CSS Case Studies */
 
-.my_logo {
-    width: 50px;
-    height: 50px;
-    margin-right: 10px;
-}
-.btn-primary {
-    background-color: #19535F;
-    color: #f0f3f5;
-    border: none;
-    width: 50%;
-}
-.learn_more {
-display: none;
-}
-.btn-primary:hover {
-    background-color: #0B7A75;
-    color: #f0f3f5;
-    border: none;
-    text-decoration: none;
-}
-.wrapper {
-    display: flex;
-    justify-content: center;
-}
-.pageheading {
-    text-align: center;
-    font-family: 'Lato', sans-serif;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-.projects {
-    margin: 25px;
-    display: grid;
-    grid-template-columns: 33% 33% 33%;
-    padding: none;
-    gap: 10px;
-    justify-content: space-evenly;
-}
-.project_margin {
- margin-bottom: 20px;
-}
 .blocktext {
     font-family: Lato;
     font-style: normal;
@@ -152,34 +116,6 @@ display: none;
     height: max-content;
 }
 
-.projectimages{
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    align-items: center;
-    border: solid 3px #1B1C1E;
-}
-
-.footer {
-    background-color: #f0f3f5;
-}
-.white_text {
-    color: #19535F;
-    font-family: "Lato", "sans-serif";
-}
-.white_text:hover {
-    color: #0B7A75;
-}
-.white {
-    color: #19535F;
-}
-
-.white_space {
-padding-bottom: 30px;
-}
-.margin_24 {
-    margin-top: 24px;
-}
 .title_case_study {
     font-family: "Lato","sans-serif";
     font-size: 1.5rem;
@@ -209,67 +145,11 @@ padding-bottom: 30px;
     padding: 10px;
    
 }
-.background_green {
-    background-color:  #066D69;
-    border: solid 3px #066D69;
-    padding: 10px;
-}
-
-.flex_donate {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-}
-.donate_text {
-    background-color: rgba(255, 255, 0, 0.699); 
-    padding: 10px;
-}
-
-.actually_white {
-    color: #f0f3f5;
-}
-/* Style the header: fixed position (always stay at the top) */
-.header {
-    position: fixed;
-    top: 0;
-    z-index: 1;
-    width: 100%;
-    background-color:#F0F3F5;
-  }
-  
-  /* The progress container (grey background) */
-  .progress-container {
-    width: 100%;
-    height: 8px;
-    background: #F0F3F5;
-  }
-  
-  /* The progress bar (scroll indicator) */
-  .progress-bar {
-    height: 8px;
-    background: #0B7A75;
-    width: 0%;
-  }
-  .email:hover {
-      color: #591B1B;
-  }
-  .no-padding {
-      padding: none;
-  }
-  .btn-outline-secondary:hover {
-      background-color:#5CFF8A;
-      color:#1B1C1E;
-  }
-
 
 @media only screen and (max-width: 768px) {
     .navbar-brand {
         font-size: 1.2rem;
     }
-    .learn_more {
-        display: block;
-        }
   .lead {
     font-size: 16pt;
 }
