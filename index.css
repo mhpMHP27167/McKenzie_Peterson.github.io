@@ -17,6 +17,9 @@ h5 {
 .text_center {
     text-align: center;
 }
+.Lato {
+    font-family: "Lato", "sans-serif";
+}
 /* CSS for entire site */
 
 /* Nav bar */
@@ -61,7 +64,7 @@ h5 {
     color: #f0f3f5;
 }
 .jumbo-link:hover {
-    text-decoration: none;
+    text-decoration: underline;
     color: #5CFF8A;
 }
 .lead {
@@ -88,15 +91,17 @@ a:hover {
     margin-top: .75rem;
 }
 .card-title:hover {
-    background-color: #5CFF8A;
+    color: #f0f3f5;
     text-decoration: none;
+    background-color: #2C363A;
 }
 .card-link {
     color: #19535F;
 }
 .card-link:hover {
+    color: #f0f3f5;
     text-decoration: none;
-    color: #5CFF8A;
+    background-color: #2C363A;
 }
 .bg-light {
     background-color: #F0F3F5!important;
