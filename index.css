@@ -20,6 +20,15 @@ h5 {
 .Lato {
     font-family: "Lato", "sans-serif";
 }
+.georgia_font {
+    font-family: "Georgia";
+}
+.caption {
+    font-family: "Lato", "sans-serif";
+    color: #066D69;
+    font-style: italic;
+}
+
 /* CSS for entire site */
 
 /* Nav bar */
@@ -157,5 +166,11 @@ a:hover {
     }
   .lead {
     font-size: 16pt;
+}
+}
+
+@media only screen and (min-width: 768px) {
+h1 {
+    text-align: center;
 }
 }
