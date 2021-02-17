@@ -169,12 +169,16 @@ a:hover {
    
 }
 
+
 @media only screen and (max-width: 768px) {
     .navbar-brand {
         font-size: 1.2rem;
     }
   .lead {
     font-size: 16pt;
+}
+.desktop_only {
+    display:none;
 }
 }
 
@@ -183,20 +187,15 @@ a:hover {
     text-align: center;
 }
 .georgia_font {
-    padding-left: 20%;
-    padding-right: 20%;
-}
-.caption {
-    padding-left: 20%;
-    padding-right: 20%;
-    display: none;
-}
-.img-fluid {
-    padding-left: 20%;
-    padding-right: 20%;
-    
+    margin: 2rem;
 }
 .mobile_only {
     display: none;
+}
+.img-casestudy {
+max-width: 50%;
+}
+.img-casestudy_paw {
+max-width: 70%;
 }
 }
