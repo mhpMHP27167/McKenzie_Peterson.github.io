@@ -1,6 +1,7 @@
 /* CSS for entire site */
 body {
     background-color: #f8f9fa;
+    font-family: 'Lato', 'sans-serif'
 }
 p {
     font-family: 'Lato', sans-serif;
