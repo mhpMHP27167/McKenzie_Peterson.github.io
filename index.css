@@ -43,26 +43,30 @@ h5 {
 .navbar-brand {
     margin: 0;
     padding: 0;
+    background-color: #2C363A;
 }
 .navbar-nav .nav-link {
     text-align: center;
+    color: #f8f9fa;
+    
 }
+
 .nav-item {
     padding-left: 20px;
     padding-right: 20px;
-    color: #066D69;
 }
 .nav-link:hover {
-    background-color: #f8f9fa;
-    text-decoration: none;
+    background-color: #066D69;
+    text-decoration: underline;
 }
 .highlighted {
-    background-color: #5CFF8A;
+    background-color: #2C363A;
 }
+
 .navbar-brand {
     color: #19535F;
 }
-.navbar-light .navbar-toggler-icon {
+.navbar-dark .navbar-toggler-icon {
     background-image: url(img/MENU.svg);
 }
 /* Nav bar */
