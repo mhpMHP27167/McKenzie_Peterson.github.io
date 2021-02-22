@@ -27,6 +27,9 @@ h5 {
 .georgia_font {
     font-family: "Georgia";
 }
+.logo {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 .caption {
     font-family: "Lato", "sans-serif";
     color: #066D69;
@@ -35,6 +38,13 @@ h5 {
 }
 .italics {
     font-style: italic;
+}
+.link-secondary {
+    color: #303030;
+    text-decoration: underline;
+}
+.link-secondary:hover {
+    color: #f8f9fa;
 }
 
 /* CSS for entire site */
@@ -48,7 +58,9 @@ h5 {
 .navbar-nav .nav-link {
     text-align: center;
     color: #f8f9fa;
-    
+}
+.logo {
+    background-image: url(./img/McKenzie_Peterson_Logo.jpg);
 }
 
 .nav-item {
@@ -175,10 +187,10 @@ a:hover {
 
 
 @media only screen and (max-width: 768px) {
-    .navbar-brand {
-        font-size: 1.2rem;
-    }
-  .lead {
+.navbar-brand {
+    font-size: 1.2rem;
+}
+.lead {
     font-size: 16pt;
 }
 .desktop_only {
