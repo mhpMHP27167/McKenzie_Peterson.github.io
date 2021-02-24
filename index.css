@@ -30,7 +30,7 @@ h5 {
 .caption {
     color: #066D69;
     font-style: italic;
-    text-align: center;
+    text-align: block;
     padding-top: 15px;
 }
 .italics {
