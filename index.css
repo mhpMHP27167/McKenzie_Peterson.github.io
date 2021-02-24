@@ -8,6 +8,7 @@ p {
     color: #303030;
     margin-top: 0px;
     margin-bottom: 2.5rem;
+    max-width: 38em;
 }
 
 h1 {
