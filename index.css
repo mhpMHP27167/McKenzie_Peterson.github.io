@@ -27,14 +27,7 @@ h5 {
 .Lato {
     font-family: "Lato", "sans-serif";
 }
-.georgia_font {
-    font-family: "Georgia";
-}
-.logo {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
 .caption {
-    font-family: "Lato", "sans-serif";
     color: #066D69;
     font-style: italic;
     text-align: center;
@@ -64,7 +57,7 @@ h5 {
     color: #f8f9fa;
 }
 .logo {
-    background-image: url(./img/McKenzie_Peterson_Logo.jpg);
+    background-image: url();
 }
 
 .nav-item {
@@ -144,52 +137,12 @@ a:hover {
 .bg-light {
     background-color: #F0F3F5!important;
 }
-/* Case Studies Cards */
-
-/* CSS Case Studies */
-
-.blocktext {
-    font-family: Lato;
-    font-style: normal;
-    font-weight: normal;
-    font-size: 16px;
-    display: block;
-    margin-left: 35px;
-    margin-right: 0;
-    height: max-content;
+.img-sm {
+    max-width: 80%;
 }
-
-.title_case_study {
-    font-family: "Lato","sans-serif";
-    font-size: 1.5rem;
-    font-weight: 500;
-    font-style: normal;
+.img-lg {
+    width: 60%!important;
 }
-.display_case_study {
-    font-family: "Lato","sans-serif";
-    font-weight: 400;
-    font-style: normal;
-    font-size: 1.25rem;
-    color: #19535F;
-    margin-top: 1rem;
-}
-.paragraph_case_study {
-    font-family: "Lato","sans-serif";
-    font-weight: 400;
-    font-style: normal;
-    font-size: 1rem;
-    color: #303030;
-}
-.designers {
-    list-style: none;
-    text-align: left;
-    color: #f0f3f5;
-    margin: auto;
-    padding: 10px;
-   
-}
-
-
 @media only screen and (max-width: 768px) {
 .navbar-brand {
     font-size: 1.2rem;
@@ -206,16 +159,10 @@ a:hover {
 .desktop_center {
     text-align: center;
 }
-.georgia_font {
-    margin: 2rem;
-}
-.mobile_only {
-    display: none;
-}
 .img-casestudy {
 max-width: 50%;
 }
-.img-casestudy_paw {
-max-width: 70%;
+.img-lg {
+    max-width: 70%;
 }
 }
