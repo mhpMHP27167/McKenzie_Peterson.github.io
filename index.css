@@ -6,6 +6,11 @@ body {
 p {
     font-family: 'Lato', sans-serif;
     color: #303030;
+    margin-top: 0px;
+    margin-bottom: 2.5rem;
+}
+
+
 }
 h1 {
     font-family: 'Lato', sans-serif;
