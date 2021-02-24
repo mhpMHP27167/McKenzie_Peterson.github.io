@@ -68,8 +68,9 @@ h5 {
     padding-right: 20px;
 }
 .nav-link:hover {
-    background-color: #066D69;
-    text-decoration: underline;
+    background-color: #5CFF8A;
+    color: #2C363A!important;
+    text-decoration: none;
 }
 .highlighted {
     background-color: #2C363A;
@@ -125,17 +126,16 @@ a:hover {
     margin-top: .75rem;
 }
 .card-title:hover {
-    color: #f0f3f5;
     text-decoration: none;
-    background-color: #2C363A;
+    background-color: #5CFF8A;
 }
 .card-link {
     color: #19535F;
+    text-decoration: underline;
 }
 .card-link:hover {
-    color: #f0f3f5;
     text-decoration: none;
-    background-color: #2C363A;
+    background-color: #5CFF8A;
 }
 .bg-light {
     background-color: #F0F3F5!important;
