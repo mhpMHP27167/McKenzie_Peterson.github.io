@@ -43,7 +43,10 @@ h5 {
 .link-secondary:hover {
     color: #f8f9fa;
 }
-
+.img-75 {
+    max-width: 75%;
+    height: auto;
+}
 /* CSS for entire site */
 
 /* Nav bar */
